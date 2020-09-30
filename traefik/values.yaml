@@ -3,6 +3,7 @@ image:
   name: traefik
   tag: 2.3.0
   pullPolicy: IfNotPresent
+  # pullSecrets: regcred
 
 #
 # Configure the deployment
